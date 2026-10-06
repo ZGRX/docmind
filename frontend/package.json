@@ -1,0 +1,25 @@
+{
+  "name": "ai-study-assistant-frontend",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "format": "prettier --write src package.json vite.config.js index.html"
+  },
+  "dependencies": {
+    "axios": "^1.7.0",
+    "dompurify": "^3.2.0",
+    "marked": "^15.0.0",
+    "pinia": "^2.2.0",
+    "vue": "^3.5.0",
+    "vue-router": "^4.4.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.9",
+    "prettier": "^3.9.9",
+    "vite": "^8.3.3"
+  }
+}
